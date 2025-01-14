@@ -17,25 +17,3 @@ console.log(`Значення myNumber: ${myNumber}`);
 
 let myNull = null;
 console.log(`Значення myNull: ${myNull}`);
-
-let userName = prompt("Введіть ваше ім'я:");
-if (userName) {
-  console.log(`Привіт, ${userName}!`);
-} else {
-  console.log("Ім'я не введено.");
-}
-
-let userConfirmation = confirm("Чи бажаєте підтвердити дію?");
-if (userConfirmation) {
-  console.log("Дякую за підтвердження!");
-} else {
-  console.log("Дію відмінено!");
-}
-
-alert("Увага! Ця дія може бути небезпечною.");
-let dangerousAction = confirm("Ви впевнені, що хочете продовжити?");
-if (dangerousAction) {
-  console.log("Дякую за підтвердження!");
-} else {
-  console.log("Дію відмінено!");
-}
